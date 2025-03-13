@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First HTML Document</title>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
     <header>
         <h1>Bem Vindo a minha primeira página HTML5</h1>
         <nav>
-            <!-- comentarios -->
+            <ul class="menu">
+            <!-- comentarios 
             <a href="https://www.youtube.com/">YouToba</a> |
             <a href="https://soundation.com/">Soundation</a> |
             <a href="https://guthib.com/">Github</a> |
-            <a href="/python/">Python</a>
+            <a href="http://127.0.0.1:5500/index.html">tome</a>
+            -->
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li>
+                    <a href="#">Produtos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Produto1</a></li>
+                        <li><a href="#">Produto2</a></li>
+                        <li><a href="#">Produto3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+            </ul>
         </nav>
     </header>
     <main>
