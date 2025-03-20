@@ -71,3 +71,20 @@ nav {
 .submenu2 li a:hover {
     background-color: #F5A962;
 }
+
+.imagemSobre {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.rodape {
+    margin-top: 200px;
+}
+
+.sobreGeral {
+    margin-left: 50px;
+}
+
+.audio {
+    margin-left: 100px;
+}
