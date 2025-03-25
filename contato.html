@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First HTML Document</title>
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <header>
@@ -35,15 +35,19 @@
         </nav>
     </header>
     <main>
-        <img src="shopping.webp" alt="" width="500" height="500">
-
-        <button>
-            <a href="kakaka.html" target="_blank">
-            Comprar
-            </a>
-        </button>
+        <section>
+            <form action="kakak.html">
+                <input type="radio" id="html">
+                <label for="html">Chocolate Branco</label><br>
+                <input type="radio" id="css">
+                <label for="css">Chocolate Preto</label><br>
+                <input type="radio" id="javascript">
+                <label for="javascript">Nada</label><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </section>
     </main>
-    <footer>
+    <footer class="rodape">
         &copy; 2025 Minha Primeira Página HTML5
     </footer>
 </body>
